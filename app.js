@@ -4,9 +4,13 @@ const listaAmigos=[];
 const ulListaAmigos = document. getElementById("listaAmigos");
 const ulResultado = document.getElementById("resultado");
 function agregarAmigo() {
-listaAmigos.push(inputAmigo.value);
+let amigoActual = inputAmigo.value;
 
-ulListaAmigos.innerHTML +=`<li> ${inputAmigo.value} </li>`;
+listaAmigos.push(amigoActual);
+
+inputAmigo.value = "";
+
+ulListaAmigos.innerHTML +=`<li> ${amigoActual} </li>`;
 }
 
 

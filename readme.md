@@ -1,5 +1,5 @@
-Challengue amigosecreto
+# Challengue amigosecreto
 
-    Mi desarrollo del Challenge del amigo secreto 
+Mi desarrollo del Challenge del amigo secreto 
 
-    ![alt text](./assets/image.png)
+![alt text](./assets/image.png)
